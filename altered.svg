@@ -1,0 +1,20 @@
+<svg height="300px" width="300px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <style>
+    @keyframes moving {
+        100% {
+        cx: 100;
+        }
+    }
+    svg {
+        width: 32px;
+        border: 1px solid #000;
+    }
+    .moving-point {
+        animation: 5s ease-in 1 both moving;
+    }
+    </style>
+    <circle class="moving-point" fill="#60f" cx="50" cy="50" r="2" />
+    <circle class="moving-point" fill="#60f" cx="150" cy="50" r="2" />
+    <circle fill="#60f" cx="50" cy="100" r="2" />
+    <circle fill="#60f" cx="150" cy="100" r="2" />
+</svg>
