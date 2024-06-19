@@ -88,23 +88,23 @@
             cx: var(--cx-start);
             cy: var(--cy-start);
           }
-          20% {
+          10% {
             cx: var(--cx-1-step-1);
             cy: var(--cy-1-step-1);
           }
-          40% {
+          20% {
             cx: var(--cx-1-step-2);
             cy: var(--cy-1-step-2);
           }
-          60% {
+          30% {
             cx: var(--cx-1-step-3);
             cy: var(--cy-1-step-3);
           }
-          80% {
+          40% {
             cx: var(--cx-1-step-4);
             cy: var(--cy-1-step-4);
           }
-          100% {
+          50% {
             cx: var(--cx-1-end);
             cy: var(--cy-1-end);
           }
@@ -115,23 +115,23 @@
             cx: var(--cx-start);
             cy: var(--cy-start);
           }
-          20% {
+          10% {
             cx: var(--cx-2-step-1);
             cy: var(--cy-2-step-1);
           }
-          40% {
+          20% {
             cx: var(--cx-2-step-2);
             cy: var(--cy-2-step-2);
           }
-          60% {
+          30% {
             cx: var(--cx-2-step-3);
             cy: var(--cy-2-step-3);
           }
-          80% {
+          40% {
             cx: var(--cx-2-step-4);
             cy: var(--cy-2-step-4);
           }
-          100% {
+          50% {
             cx: var(--cx-2-end);
             cy: var(--cy-2-end);
           }
@@ -142,23 +142,23 @@
             cx: var(--cx-start);
             cy: var(--cy-start);
           }
-          20% {
+          10% {
             cx: var(--cx-3-step-1);
             cy: var(--cy-3-step-1);
           }
-          40% {
+          20% {
             cx: var(--cx-3-step-2);
             cy: var(--cy-3-step-2);
           }
-          60% {
+          30% {
             cx: var(--cx-3-step-3);
             cy: var(--cy-3-step-3);
           }
-          80% {
+          40% {
             cx: var(--cx-3-step-4);
             cy: var(--cy-3-step-4);
           }
-          100% {
+          50% {
             cx: var(--cx-3-end);
             cy: var(--cy-3-end);
           }
@@ -169,23 +169,23 @@
             cx: var(--cx-start);
             cy: var(--cy-start);
           }
-          20% {
+          10% {
             cx: var(--cx-4-step-1);
             cy: var(--cy-4-step-1);
           }
-          40% {
+          20% {
             cx: var(--cx-4-step-2);
             cy: var(--cy-4-step-2);
           }
-          60% {
+          30% {
             cx: var(--cx-4-step-3);
             cy: var(--cy-4-step-3);
           }
-          80% {
+          40% {
             cx: var(--cx-4-step-4);
             cy: var(--cy-4-step-4);
           }
-          100% {
+          50% {
             cx: var(--cx-4-end);
             cy: var(--cy-4-end);
           }
@@ -196,23 +196,23 @@
             cx: var(--cx-start);
             cy: var(--cy-start);
           }
-          20% {
+          10% {
             cx: var(--cx-5-step-1);
             cy: var(--cy-5-step-1);
           }
-          40% {
+          20% {
             cx: var(--cx-5-step-2);
             cy: var(--cy-5-step-2);
           }
-          60% {
+          30% {
             cx: var(--cx-5-step-3);
             cy: var(--cy-5-step-3);
           }
-          80% {
+          40% {
             cx: var(--cx-5-step-4);
             cy: var(--cy-5-step-4);
           }
-          100% {
+          50% {
             cx: var(--cx-5-end);
             cy: var(--cy-5-end);
           }
@@ -223,52 +223,52 @@
             cx: var(--cx-start);
             cy: var(--cy-start);
           }
-          20% {
+          10% {
             cx: var(--cx-6-step-1);
             cy: var(--cy-6-step-1);
           }
-          40% {
+          20% {
             cx: var(--cx-6-step-2);
             cy: var(--cy-6-step-2);
           }
-          60% {
+          30% {
             cx: var(--cx-6-step-3);
             cy: var(--cy-6-step-3);
           }
-          80% {
+          40% {
             cx: var(--cx-6-step-4);
             cy: var(--cy-6-step-4);
           }
-          100% {
+          50% {
             cx: var(--cx-6-end);
             cy: var(--cy-6-end);
           }
         }
 
         #point-1 {
-          animation: 5s ease-in 1 both move-point-1;
+          animation: 10s ease-in infinite both move-point-1;
         }
         #point-2 {
-          animation: 5s ease-in 1 both move-point-2;
+          animation: 10s ease-in infinite both move-point-2;
         }
         #point-3 {
-          animation: 5s ease-in 1 both move-point-3;
+          animation: 10s ease-in infinite both move-point-3;
         }
         #point-4 {
-          animation: 5s ease-in 1 both move-point-4;
+          animation: 10s ease-in infinite both move-point-4;
         }
         #point-5 {
-          animation: 5s ease-in 1 both move-point-5;
+          animation: 10s ease-in infinite both move-point-5;
         }
         #point-6 {
-          animation: 5s ease-in 1 both move-point-6;
+          animation: 10s ease-in infinite both move-point-6;
         }
       </style>
-      <circle id="point-1" fill="#60f" cx="100" cy="50" r="2" />
-      <circle id="point-2" fill="#60f" cx="100" cy="50" r="3" />
-      <circle id="point-3" fill="#60f" cx="100" cy="50" r="4" />
-      <circle id="point-4" fill="#60f" cx="100" cy="50" r="5" />
-      <circle id="point-5" fill="#60f" cx="100" cy="50" r="6" />
-      <circle id="point-6" fill="#60f" cx="100" cy="50" r="7" />
+      <circle id="point-1" fill="#60f" cx="100" cy="100" r="2" />
+      <circle id="point-2" fill="#60f" cx="100" cy="100" r="3" />
+      <circle id="point-3" fill="#60f" cx="100" cy="100" r="4" />
+      <circle id="point-4" fill="#60f" cx="100" cy="100" r="5" />
+      <circle id="point-5" fill="#60f" cx="100" cy="100" r="6" />
+      <circle id="point-6" fill="#60f" cx="100" cy="100" r="7" />
       <rect width="180" height="180" x="10" y="10" rx="20" ry="20" style="fill:transparent;stroke-width:3;stroke:red" />
     </svg>
